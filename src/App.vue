@@ -39,4 +39,10 @@
     @import "~font-awesome/scss/font-awesome";
     @import "./styles/main";
     @import "./styles/extra";
+    @import 'simplemde/dist/simplemde.min.css';
+    @import 'highlight.js/styles/paraiso-dark.css';
+    @import "animate.css/animate.min.css";
+    div .editor-preview-side pre { background: #eee;}
+    div .editor-preview-side pre code[class*="lang-"] { color: #333;}
+
 </style>
